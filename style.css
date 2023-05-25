@@ -128,9 +128,7 @@ img {
 }
 
 .top-header {
-  display: block;
-  height: 30px;
-  color: var(--color-white);
+  display: none;
 }
 
 .flex {
@@ -138,16 +136,6 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
-}
-
-.top-header .flex {
-  display: none;
-}
-
-.top-header a {
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
 }
 
 .btn {
@@ -215,11 +203,12 @@ img {
   animation: back 20s linear infinite;
 }
 
+/*
 @keyframes back {
   100% {
     background-position: 2000px 0;
   }
-}
+} */
 
 .home-text p {
   font-family: "Lato", sans-serif;
@@ -398,6 +387,7 @@ img {
 .course-feature .course-card {
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background: rgba(211, 211, 211, 0.12);
 }
 
@@ -437,13 +427,10 @@ img {
 }
 
 /* ======== Lecturer ==== */
-.lecturer {
-  padding: 30px 0;
-}
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
+  /* grid-template-columns: repeat(2, 1fr); */
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -451,38 +438,39 @@ img {
   overflow: hidden;
 }
 
-.lecturer .grid {
-  grid-template-columns: 1fr;
-  gap: 40px;
-}
-
-.lecturer .lecturer-card {
-  display: grid;
-  grid-template-columns: 2fr 4fr;
-  gap: 20px;
-}
-
-.lecturer .lecturer-card p:nth-child(2) {
-  font-family: 'Lato', sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 0;
-}
-
-.lecturer .lecturer-card p:nth-child(2)::after {
-  content: "";
-  display: flex;
-  padding: 5px 0;
-  border-bottom: 1px solid var(--color-anchor-tag);
-  width: 30px;
-}
-
 .lecturer .lecturer-card p:nth-child(3) {
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 12px;
   margin: 5px 0;
+}
+
+#lecturers {
+  display: block;
+}
+
+#tuitornll {
+  display: none;
+}
+
+.show-more {
+  display: inline-block;
+  margin: 30px 0;
+  padding: 10px 10px;
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  background: var(--color-white);
+  color: var(--color-black);
+  font-weight: 600;
+  width: 100%;
+}
+
+.show-more i {
+  color: var(--color-anchor-tag);
+}
+
+.footer {
+  display: none;
 }
 
 /* ====== Parter section ====== */
@@ -490,6 +478,7 @@ img {
   padding: 30px 0;
   background: var(--color-hash);
   transition: transform 0.2s ease-in;
+  display: none;
 }
 
 .partner .container {
@@ -540,10 +529,20 @@ img {
 }
 
 /* ======= leacturers ====== */
-
-/* .lecturer {
+.lecturer {
   padding: 30px 0;
-} */
+}
+
+.lecturer .grid {
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.lecturer .lecturer-card {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 20px;
+}
 
 .lecturer .lecturer-card h3 {
   font-weight: 700;
@@ -551,10 +550,21 @@ img {
   line-height: 18px;
 }
 
-/* .lecturer .lecturer-card p:nth-child(2) {
+.lecturer .lecturer-card p:nth-child(2) {
+  font-family: 'Lato', sans-serif;
   font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 18px;
-} */
+}
+
+.lecturer .lecturer-card p:nth-child(2)::after {
+  content: "";
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--color-anchor-tag);
+  width: 30px;
+}
 
 .footer .grid img {
   width: 320px;
@@ -574,6 +584,7 @@ img {
   }
 
   .top-header a {
+    font-family: 'Lato', sans-serif;
     color: var(--color-white);
     font-size: 13px;
     font-weight: 400;
@@ -645,7 +656,7 @@ img {
 
   .home .home-text h2 {
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .footer p {
@@ -892,29 +903,23 @@ img {
     border: 3px solid var(--color-white);
   }
 
-  .show-details {
-    display: inline-block;
-    margin: 30px 0;
-    padding: 10px 10px;
-    cursor: pointer;
-    border: 2px solid var(--color-showcase);
-    font-weight: 600;
-    width: 100%;
+  .show-more {
+    display: none;
   }
 
-  .show-details i {
-    color: var(--color-anchor-tag);
-  }
-
-  /* #lecturers {
+  #lecturers {
     display: none;
   }
 
   #tuitornll {
+    display: grid;
+  }
+
+  #tuitornli {
     display: none;
   }
 
   .none {
-    display: none;
-  } */
+    display: block;
+  }
 }
