@@ -28,9 +28,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Portfolio Website] <a name="about-project"></a>
+# 📖 [Capstone: Project] <a name="about-project"></a>
 
-**[Portfolio Website]** This is a Capstone project that was developed with HTML5, CSS3, and Javascript. This website outlines anlione software development course and various confereces around the globe. Portions of the website will give you course categories and materials that will be available during course program. 
+**[Capstone: Project]** This is a Capstone project that was developed with HTML5, CSS3, and Javascript. This website outlines anlione software development course and various confereces around the globe. Portions of the website will give you course categories and materials that will be available during course program. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
