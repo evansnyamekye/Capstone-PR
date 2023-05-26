@@ -203,12 +203,11 @@ img {
   animation: back 20s linear infinite;
 }
 
-/*
 @keyframes back {
   100% {
     background-position: 2000px 0;
   }
-} */
+}
 
 .home-text p {
   font-family: "Lato", sans-serif;
@@ -499,7 +498,11 @@ img {
 }
 
 .about-partner {
-  display: none;
+  display: block;
+}
+
+.about-footer {
+  display: block;
 }
 
 /*  ===== Course Text ===== */
