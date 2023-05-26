@@ -892,6 +892,10 @@ img {
     filter: invert(100%) saturate(0%);
   }
 
+  .about-partner {
+    display: none;
+  }
+
   /* ===== Course- Col section */
   .course-col {
     padding: 40px 0;
