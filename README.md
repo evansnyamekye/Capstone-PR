@@ -101,7 +101,7 @@ This project is deployed by using Github tools.
 
 ### Online-Link (Complete website)
 
-- https:[https://github.com/evansnyamekye/Capstone-PR.git](https://github.com/evansnyamekye)
+- https://evansnyamekye.github.io/Capstone-PR/index.html
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +111,7 @@ This project is deployed by using Github tools.
 
 To run the project, execute the following command by clonning to your machine:
 
-
+https://evansnyamekye.github.io/Capstone-PR/index.html
 Example command:
 
 ```sh
