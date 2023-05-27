@@ -22,7 +22,7 @@ body {
 :root {
   --color-top-header: #3e3e3e;
   --color-primary: #6c63ff;
-  --color-success: #00bf8e;
+  --color-globe: #2c2c2c;
   --color-first-nav: #f07f7e;
   --color-showcase: #f8f8f8;
   --color-hash: #595959;
@@ -65,9 +65,9 @@ img {
 }
 
 .navbar {
-  height: 50px;
+  height: 80px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
 
@@ -83,8 +83,9 @@ img {
 }
 
 .navbar .open {
-  font-size: 30px;
+  font-size: 35px;
   opacity: 1;
+  margin-top: 8%;
 }
 
 .navbar .close {
@@ -94,7 +95,7 @@ img {
 }
 
 .navbar .mobile-nav {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 25px;
   display: none;
   flex-direction: column;
@@ -124,7 +125,7 @@ img {
 }
 
 .gray {
-  color: var(--color-date);
+  color: var(--color-globe);
 }
 
 .top-header {
@@ -155,13 +156,6 @@ img {
   font-family: "Lato", sans-serif;
 }
 
-/* .navbar .nav-links  {
-  color: var(--color-hash);
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  font-weight: 200;
-} */
-
 .home {
   background-image: url(images/bg/mobile-home-bg.png);
   background-repeat: no-repeat;
@@ -179,7 +173,7 @@ img {
 
 .home-text h2 {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 25px;
   margin: 0;
   margin-top: 35px;
@@ -192,10 +186,18 @@ img {
   color: var(--color-anchor-tag);
 }
 
-.home-text h1 {
-  font-size: 28px;
+.about-home h1 {
+  color: var(--color-anchor-tag);
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 30%;
+}
+
+.home .home-text h1 {
+  font-size: 30px;
   font-weight: 900;
   line-height: 1.1;
+  letter-spacing: 2px;
   color: transparent;
   -webkit-text-stroke: 1px var(--color-anchor-tag);
   background-image: url(images/banner/nixel-bg.jpg);
@@ -203,36 +205,30 @@ img {
   animation: back 20s linear infinite;
 }
 
-@keyframes back {
-  100% {
-    background-position: 2000px 0;
-  }
-}
-
 .home-text p {
   font-family: "Lato", sans-serif;
   max-width: 620px;
   color: var(--color-parah);
   background: var(--color-showcase);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
   line-height: 28px;
   padding: 0 16px;
   margin: 20px 0;
-  border: 8px solid #fff;
+  border: 5px solid #fff;
 }
 
-.home-text h3 {
-  font-family: "Gothic A1", sans-serif;
-  font-style: normal;
+.home .home-text h3 {
+  font-family: "Lato", sans-serif;
   font-weight: 900;
-  font-size: 23px;
+  font-size: 20px;
   color: var(--color-hash);
 }
 
 .home-text h6 {
-  font-family: "Gothic A1", sans-serif;
-  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
   color: var(--color-date);
   letter-spacing: -0.02em;
 }
@@ -243,7 +239,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 100%;
 }
 
 .about-home .container {
@@ -263,13 +259,7 @@ img {
   font-size: 25px;
   font-weight: 400;
   color: var(--color-anchor-tag);
-  margin: 0;
-}
-
-.about-home h1 {
-  color: var(--color-anchor-tag);
-  font-size: 24px;
-  font-weight: 900;
+  margin-top: 20%;
 }
 
 .about-home p {
@@ -282,13 +272,14 @@ img {
   font-size: 15px;
   margin: 20px 0;
   max-width: 620px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-home .home-nl {
   font-size: 13px;
   font-weight: 500;
   color: var(--color-parah);
+  background-color: transparent;
+  border: none;
   line-height: 2;
 }
 
@@ -305,6 +296,7 @@ img {
   padding: 40px 0;
   text-align: center;
   border-bottom: 3px solid var(--color-white);
+  background-color: var(--color-white);
 }
 
 .course-col p {
@@ -324,6 +316,7 @@ img {
   padding: 40px 0;
   text-align: center;
   border-bottom: 3px solid var(--color-white);
+  background-color: var(--color-white);
 }
 
 .blog .course h2 {
@@ -331,9 +324,12 @@ img {
 }
 
 .blog .blog-ld {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-style: normal;
   margin: 30px 0;
   color: var(--color-hash);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .blog .flex {
@@ -361,32 +357,35 @@ img {
 }
 
 .blog .content h3 {
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
 
 .blog .content p {
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ======= Course Category ====== */
 .course-feature {
   background-color: var(--color-black);
   background-image: url(images/bg/pattern_bg.png);
-  margin: 0;
+  margin: 10px;
   padding: 30px 0;
 }
 
-.course- .container {
+.course-feature .container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .course-feature .course-card {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
   background: rgba(211, 211, 211, 0.12);
 }
 
@@ -395,7 +394,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   width: 190px;
-  align-items: center;
+  text-align: left;
   margin-left: 5px;
 }
 
@@ -404,6 +403,7 @@ img {
   font-weight: 500;
   font-size: 12px;
   padding: 0;
+  text-align: left;
 }
 
 .course-feature .course-nl {
@@ -414,6 +414,7 @@ img {
   display: block;
   background-color: var(--color-anchor-tag);
   text-align: center;
+  font-size: 16px;
   margin: auto;
   margin-top: 35px;
   padding: 20px;
@@ -423,6 +424,8 @@ img {
 .course-feature .mobile a {
   color: var(--color-white);
   text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 /* ======== Lecturer ==== */
@@ -437,8 +440,18 @@ img {
   overflow: hidden;
 }
 
-.lecturer .lecturer-card p:nth-child(3) {
+.about-footer p:nth-child(2) {
+  display: none;
+}
+
+.about-footer .grid p {
   font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  width: 180px;
+}
+
+.lecturer .lecturer-card p:nth-child(3) {
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 12px;
   margin: 5px 0;
@@ -505,6 +518,8 @@ img {
   display: block;
 }
 
+
+
 /*  ===== Course Text ===== */
 .course {
   font-family: "Lato", sans-serif;
@@ -545,6 +560,7 @@ img {
   display: grid;
   grid-template-columns: 2fr 4fr;
   gap: 20px;
+  text-align: left;
 }
 
 .lecturer .lecturer-card h3 {
@@ -554,7 +570,7 @@ img {
 }
 
 .lecturer .lecturer-card p:nth-child(2) {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 15px;
@@ -570,8 +586,22 @@ img {
 }
 
 .footer .grid img {
-  width: 320px;
-  margin-top: 20px;
+  width: 220px;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+
+.about-footer .grid img {
+  width: 150px;
+}
+
+.about-footer .grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 29.52px;
+  margin-left: -10%;
 }
 
 @media screen and (min-width: 768px) {
@@ -587,7 +617,7 @@ img {
   }
 
   .top-header a {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: var(--color-white);
     font-size: 13px;
     font-weight: 400;
@@ -647,7 +677,8 @@ img {
 
   .about-home h1 {
     color: var(--color-anchor-tag);
-    font-size: 24px;
+    font-size: 35px;
+    margin-top: 16px;
   }
 
   .about-home-text h2 {
@@ -664,12 +695,14 @@ img {
 
   .footer p {
     font-family: "Lato", sans-serif;
+    font-size: 10px;
+    width: 80%;
   }
 
   .about-home p {
     border: 3px solid var(--color-white);
     margin: 40px 0;
-    background-color: var(--color-light);
+    background-color: var(--color-white);
     color: var(--color-date);
   }
 
@@ -692,6 +725,7 @@ img {
   .home .home-text h1 {
     color: transparent;
     font-size: 60px;
+    width: 80%;
   }
 
   .home .home-text h6 {
@@ -790,7 +824,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
   }
 
   .course-feature .course-card {
@@ -819,6 +853,8 @@ img {
 
   .course-feature .course-nl a {
     color: var(--color-white);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     text-align: center;
     margin: 30px 0;
     border-bottom: 2px solid var(--color-white);
@@ -833,6 +869,7 @@ img {
     padding: 40px 0;
     text-align: center;
     border-bottom: 3px solid var(--color-white);
+    background-color: var(--color-white);
   }
 
   .blog .course h2 {
@@ -841,7 +878,7 @@ img {
 
   .blog .blog-ld {
     margin: 30px 0;
-    font-size: 20px;
+    font-size: 15px;
     color: var(--color-hash);
     font-weight: 500;
   }
@@ -882,10 +919,12 @@ img {
   }
 
   .about-footer .grid {
-    grid-template-columns: 1fr 2fr;
-    justify-content: space-between;
-    margin-right: 20px;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 29.52px;
+    margin-left: 15%;
   }
 
   .about-footer img {
@@ -901,6 +940,7 @@ img {
     padding: 40px 0;
     text-align: center;
     border-bottom: 3px solid var(--color-white);
+    background-color: var(--color-white);
   }
 
   .course-col .img {
