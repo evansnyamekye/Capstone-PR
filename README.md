@@ -77,9 +77,10 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https:[[//github.com/evansnyamekye/Portfolio-CompleteWebsite.git](https://github.com/evansnyamekye/Capstone-PR.git)
-```
---->
+
+  git clone https:(https://github.com/evansnyamekye/Capstone-PR.git)
+
+
 
 ### Install
 

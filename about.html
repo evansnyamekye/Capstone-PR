@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Capstone: HomePage</title>
+    <!-- fontawesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Roboto:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!--------- Boxicon ---------->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <!-- ---- start of top-header ------>
+        <section class="top-header">
+            <div class="container flex">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><a href="#">English</a></i></a>
+                <a href="#"><a href="#">My Page</a></i></a>
+                <a href="#"><a href="#">Logout</a></i></a>
+            </div>
+        </section>
+
+        <!-------- stat of main-navigation --- -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="images/nav-img/logo.svg" alt="nav-logo" id="nav-open"></a>
+                </div>
+                <ul class="nav-links flex">
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button type="submit" class="btn btn-default">
+                        <a href="#">New Courses!</a>
+                    </button>
+                </ul>
+                <i class="open bx bx-menu"></i>
+                <ul class="mobile-nav">
+                    <i class="close fa fa-times"></i>
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ------ start of home section  -->
+        <section class="about-home">
+            <div class="container">
+                <div class="about-home-text">
+                    <h1>CREATIVE COMMONS<br>GLOBAL SUMMIT 2015</h1>
+                    <p>The Global Summit brings together the community of experts, academics, and activists who comprise
+                        the Creative Commons affiliate network in a different country every two years.
+                        This year, we hope to expand our invitation list including organizations and individuals
+                    </p>
+
+                    <p class="home-nl">Please contact us per Email for nay further questions about CC Global Summit
+                        2015!</p>
+                    <div class="mobile">
+                        <a href="#">ccsummit2015@cckorea.org</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- start of course feature ------>
+    <course>
+        <section class="course-col">
+            <h2 class="course gray">Creative Commons Global Summit 2015 Logo</h2>
+            <div class="container">
+                <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
+                   </p>
+            </div>
+            <div class="img">
+                <img src="images/cc-global.png" alt="Tech-Fair">
+            </div>
+        </section>
+
+        <section class="blog">
+            <h2 class="course gray">See the past CC Global Summits</h2>
+            <div class="container">
+                <p class="blog-ld">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw.</p>
+                <div class="flex">
+                    <div class="image-list">
+                        <img src="images/blog/portfolio-01.jpg" alt="course-blog">
+                        <div class="content">
+                            <h3>2021</h3>
+                            <p>2021 Technology Fair summit in New York</p>
+                        </div>
+                    </div>
+                    <div class="image-list">
+                        <img src="images/blog/portfolio-02.jpg" alt="course-blog">
+                        <div class="content">
+                            <h3>2022</h3>
+                            <p>2022 Technology training workshop for Girls in Ghana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </course>
+
+
+    <section class="partner about-partner">
+        <h2 class="course white">Partner</h2>
+        <div class="container">
+            <div class="card-img">
+                <img src="images/cur-part/mozilla.svg" alt="Firefox">
+            </div>
+            <div class="card-img">
+                <img src="images/cur-part/google.svg" alt="Google">
+            </div>
+            <div class="card-img">
+                <img src="images/cur-part/naver.svg" alt="Naver">
+            </div>
+            <div class="card-img">
+                <img src="images/cur-part/daumkakao.svg" alt="Daumkakao">
+            </div>
+            <div class="card-img">
+                <img src="images/cur-part/airbnb.svg" alt="Airbnb">
+            </div>
+        </div>
+    </section>
+    </course>
+
+    <!----- Footer section ----->
+    <footer class="footer about-footer">
+        <div class="container grid">
+            <img src="images/cck-logo1.png" alt="course-logo">
+
+            <div class="korea-text">
+                <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+                <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</meta>
+
+</html>
