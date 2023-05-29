@@ -205,6 +205,12 @@ img {
   animation: back 20s linear infinite;
 }
 
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
 .home-text p {
   font-family: "Lato", sans-serif;
   max-width: 620px;
@@ -447,7 +453,7 @@ img {
 .about-footer .grid p {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  width: 180px;
+  width: 160px;
 }
 
 .lecturer .lecturer-card p:nth-child(3) {
@@ -599,7 +605,7 @@ img {
   align-items: center;
   padding: 0;
   gap: 29.52px;
-  margin-left: -10%;
+  margin-left: -15%;
 }
 
 @media screen and (min-width: 768px) {
