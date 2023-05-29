@@ -369,8 +369,10 @@ img {
 }
 
 .blog .content p {
-  font-weight: 400;
   font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+ 
 }
 
 /* ======= Course Category ====== */
@@ -604,8 +606,9 @@ img {
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 29.52px;
+  gap: 25.52px;
   margin-left: -15%;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
