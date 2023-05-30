@@ -845,6 +845,7 @@ img {
     font-weight: 600;
     font-size: 12px;
     margin: 5px 0;
+    font-style: normal;
   }
 
   /* ====== Home Section ====== */
@@ -872,6 +873,7 @@ img {
   .about-home .home-nl {
     font-size: 13px;
     font-weight: 500;
+    font-style: normal;
     color: var(--color-date);
     line-height: 2;
   }
