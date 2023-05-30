@@ -813,7 +813,7 @@ img {
     font-size: 20px;
   }
 
-  .course-feature .course-card p {
+  .course .course-feature .course-card p {
     font-weight: 500;
     font-size: 12px;
     padding: 0;
@@ -826,7 +826,7 @@ img {
     width: 250px;
   }
 
-  .caourse .course-feature .course-card p {
+ .course-feature .course-card p {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 12px;
