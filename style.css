@@ -813,11 +813,12 @@ img {
     font-size: 20px;
   }
 
-  .course .course-feature .course-card p {
+  .course-feature .course-card p {
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 12px;
     padding: 0;
-    width: 140px;
+    text-align: center;
   }
 
   .about-footer .korea-text p {
@@ -826,12 +827,11 @@ img {
     width: 250px;
   }
 
- .course-feature .course-card p {
-    font-family: "Lato", sans-serif;
+  .course .course-feature .course-card p {
     font-weight: 500;
     font-size: 12px;
     padding: 0;
-    text-align: center;
+    width: 140px;
   }
 
   .lecturer .lecturer-card p:nth-child(2) {
