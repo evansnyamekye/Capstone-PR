@@ -30,7 +30,7 @@
 
 # 📖 [Capstone: Project] <a name="about-project"></a>
 
-**[Capstone: Project]** This is a Capstone project that was developed with HTML5, CSS3, and Javascript. This website outlines anlione software development course and various confereces around the globe. Portions of the website will give you course categories and materials that will be available during course program. 
+**[Capstone: Project]** This is a Capstone project that was developed with HTML5, CSS3, and Javascript. This website outlines online software development courses and various conferences around the globe. Portions of the website will give you course categories and materials that will be available during the course program. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,17 +49,15 @@
 
 ### Key Features <a name="key-features"></a>
 - Fully responsive portfolio built with pure HTML & CSS
-- Specialized resposnive effects 
+- Specialized responsive effects 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Online-Link LIVE DEMO (Complete website)
-- https://evansnyamekye.github.io/Capstone-PR/
-- <a href="https://evansnyamekye.github.io/Capstone-PR/">LIVE DEMO</a>
+### Online-Link LIVE DEMO (Complete capstone website)
+- https://evansnyamekye.github.io/Capstone-PR/ 🔥
+- <a href="https://evansnyamekye.github.io/Capstone-PR/">LIVE DEMO</a>🚀
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-
+## 💻 Getting Started <a name="getting-started"></a>🧰
 To get a local copy up and running, follow these steps:
 - Open your Terminal
 - Navigate to the desired directory[folder] to which you want to clone the repository to
@@ -74,7 +72,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: 
 
 - git clone  https: ([https://github.com/evansnyamekye/Capstone-PR.git](https://github.com/evansnyamekye/Capstone-PR.git))
 Example commands:
@@ -98,11 +96,11 @@ Install this project with:
 To run tests, run the following command:
 
 - npx stylelint "**/*.{css,scss}"
-- npx hint .
+- npx hint.
 
-### Deployment (Porfolio website)
+### Deployment (Portfolio website)
 
-This project is deployed by using Github tools. 
+This project is deployed by using GitHub tools. 
 
 ### Online-Link (Complete website)
 
@@ -114,7 +112,7 @@ This project is deployed by using Github tools.
  
 ### Usage
 
-To run the project, execute the following command by clonning to your machine:
+To run the project, execute the following command by cloning to your machine:
 
 https://evansnyamekye.github.io/Capstone-PR/index.html
 Example command:
@@ -173,14 +171,14 @@ If you like this project give this repository a 5 star rating.
 
 
 I would like to thank...
-- Microverse Review Team and specially Abel Gebeyehu for professional review feedback
+- Microverse Review Team and especially Abel Gebeyehu for professional review feedback
 - My Coding Partners, wish I could mention your names. cheers!! to you all. 
-- I, Evans and my Family.
+- I, Evans, and my Family.😀
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="license"></a>🗄️
 
 This project is [MIT](./LICENSE) licensed.
 
