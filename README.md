@@ -55,6 +55,11 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+### Online-Link LIVE DEMO (Complete website)
+
+- https://evansnyamekye.github.io/Capstone-PR/
+
+
 
 To get a local copy up and running, follow these steps:
 - Open your Terminal
@@ -134,12 +139,6 @@ Example command:
 - GitHub: [evansnyamekye](https://github.com/evansnyamekye)
 - Twitter: [@nyamekye2131](https://twitter.com/nyamekye2131)
 - LinkedIn: [Evans Kofi Nyamekye](https://www.linkedin.com/in/evans-kofi-nyamekye-1980a4117/)
-
-- GitHub: [@githubhandle](https://github.com/RicardoEgas)
-- Twitter: [@twitterhandle](https://twitter.com/RjEgas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ricardo-egas-952125136)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
