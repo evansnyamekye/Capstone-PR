@@ -55,6 +55,7 @@
 
 ### Online-Link LIVE DEMO (Complete website)
 - https://evansnyamekye.github.io/Capstone-PR/
+- <a href="https://evansnyamekye.github.io/Capstone-PR/">LIVE DEMO</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
