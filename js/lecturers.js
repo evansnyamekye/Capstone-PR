@@ -81,7 +81,7 @@ showMoreBtn.innerHTML = 'More <i class="fa fa-chevron-down"></>';
 lecturer.appendChild(showMoreBtn);
 
 const firstTwoLecturers = lecturersData.slice(0, 2);
-firstTwoLecturers.forEach((lecturer) => {
+firstTwoLecturers.forEach((lecturersData) => {
   showLecturer.innerHTML += `
     <div class="lecturer-card">
     <img src="${lecturer.image}" alt="lecturer">
