@@ -66,10 +66,12 @@ img {
 }
 
 .navbar {
-  height: 80px;
+  height: 52px;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   width: 100%;
+  background-color: white;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0);
 }
 
 .navbar .container {
@@ -86,7 +88,7 @@ img {
 .navbar .open {
   font-size: 35px;
   opacity: 1;
-  margin-top: 8%;
+  margin-top: 5px;
 }
 
 .navbar .close {
@@ -162,7 +164,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 550px;
+  height: 650px;
 }
 
 .home .container {
@@ -626,9 +628,12 @@ img {
 
   .top-header {
     display: block;
+    top: -2px;
     height: 30px;
     color: var(--color-white);
     background: var(--color-top-header);
+    position: fixed;
+    width: 100%;
   }
 
   .top-header a {
@@ -657,9 +662,11 @@ img {
 
   .navbar {
     display: block;
-    height: 70px;
-    position: relative;
+    top: 28px;
+    height: 60px;
+    position: fixed;
     z-index: 1;
+    background-color: #fff;
     width: 100%;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0);
   }
@@ -718,7 +725,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 750px;
   }
 
   .course-col h2 {
@@ -845,6 +852,7 @@ img {
     font-weight: 600;
     font-size: 12px;
     margin: 5px 0;
+    font-style: normal;
   }
 
   /* ====== Home Section ====== */
@@ -872,6 +880,7 @@ img {
   .about-home .home-nl {
     font-size: 13px;
     font-weight: 500;
+    font-style: normal;
     color: var(--color-date);
     line-height: 2;
   }
